@@ -21,6 +21,7 @@
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6x1-nv-2PP">
                                 <rect key="frame" x="0.0" y="44" width="414" height="652"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fsz-2i-ILv">
                                     <size key="itemSize" width="414" height="651"/>
@@ -124,6 +125,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="6x1-nv-2PP" id="wKE-BA-7qX"/>
+                        <outlet property="pageControl" destination="8ue-yY-p37" id="Bk4-Nm-ps4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JDh-4s-Hys" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

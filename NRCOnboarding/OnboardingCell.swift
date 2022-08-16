@@ -13,12 +13,6 @@ class OnboardingCell: UICollectionViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        self.backgroundColor = .clear
-    }
     
     func configure(_ message: OnboardingMessage) {
         imageView.image = UIImage(named: message.imageName)
@@ -26,3 +20,4 @@ class OnboardingCell: UICollectionViewCell {
         descriptionLabel.text = message.description
     }
 }
+
